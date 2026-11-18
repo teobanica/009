@@ -1,0 +1,11 @@
+{
+  "title": "Invariant tensor dimensions as Hamburger moments",
+  "description": "Paper (50 pages, PDF and LaTeX source) and the complete code behind its computations. For a self-dual object X in a complex tensor category, we characterize the Hamburger moment property of its invariant tensor dimensions c<sub>n</sub>(X) = dim Hom(1, X<sup>&otimes;n</sup>) by a Cauchy-Schwarz inequality on sums of its tensor powers, and we study the consequences for the category. For the additive group, the even invariant dimensions recover the Jordan type, and the groups C<sup>N</sup> &#8906; SL<sub>N</sub> and the complex Euclidean groups have self-dual modules without a law. In a finite tensor category of fusion type, Hamburger positivity for the projective cover of the unit forces unimodularity, and is equivalent to semisimplicity when the identity and double dual are isomorphic as additive functors. We also prove that every finite categorification of the even sl<sub>2</sub> Verlinde ring at odd level is semisimple. Finally, we give a Stieltjes criterion for X &otimes; X<sup>*</sup>, and a 6-dimensional representation whose doubled sequence has a 42-atom representing measure through degree 83 and fails at degree 84.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {"name": "Banica, Teo", "orcid": "0000-0003-4680-0364"},
+    {"name": "Palcoux, Sébastien"}
+  ],
+  "keywords": ["tensor categories", "Hamburger moment problem", "invariant tensor dimensions", "Hankel determinants", "finite tensor categories", "algebraic groups", "Verlinde rings", "Nichols algebras", "fusion rings"]
+}
