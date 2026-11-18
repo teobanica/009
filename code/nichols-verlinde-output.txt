@@ -1,0 +1,28 @@
+SU(2)_13, even part: numerical estimates for Nichols symmetrizer ranks and graded FP dimensions
+numerical checks: orthogonality and four-strand braid residuals within tolerance
+test: the invertible object of spin 13/2
+  degree 1   FPdim 1.000   13/2:1
+  degree 2   FPdim 1.000   0:1
+  degree 3   FPdim 1.000   13/2:1
+  degree 4   FPdim 0.000   
+  degree 5   FPdim 0.000   
+V = X_5, the simple of spin 5 (twist 1, FPdim 3.574)
+  degree 1   FPdim 3.574   5:1
+  degree 2   FPdim 12.776   0:1 1:1 2:1 3:1
+  degree 3   FPdim 42.091   2:1 3:2 4:3 5:3 6:2
+  degree 4   FPdim 138.670   0:3 1:7 2:9 3:8 4:6 5:3 6:1
+  degree 5   FPdim 449.988   0:3 1:10 2:17 3:24 4:27 5:23 6:14
+  degree 6   FPdim 1451.810   0:21 1:56 2:78 3:82 4:72 5:49 6:26
+  degree 7   FPdim 4661.893   0:45 1:135 2:209 3:253 4:258 5:208 6:118
+powers of the quadratic invariant Q of B(X_5)
+  degree 2: |S(Q^1)| = 2 (computed norm)
+  degree 4: |S(Q^2)| = 16.43 (computed norm)
+  degree 6: |S(Q^3)| = 288.7 (computed norm)
+  degree 8: |S(Q^4)| = 8580 (computed norm)
+V = X_3 [x] X_6 in D [x] D^rev (twist 1, FPdim 9.358)
+  degree 1   FPdim 9.358   3|6:1
+  degree 2   FPdim 83.993   0|0:1 0|1:1 1|0:1 1|1:1 2|0:1 2|1:1 3|0:1 3|1:1 4|0:1 4|1:1 5|1:1 6|0:1 6|1:1
+  degree 3   FPdim 730.241   0|6:2 1|5:3 1|6:6 2|5:5 2|6:8 3|5:7 3|6:10 4|5:6 4|6:10 5|5:4 5|6:6 6|5:2 6|6:4
+  degree 4   FPdim 6323.012   0|0:10 0|1:14 0|2:7 1|0:24 1|1:41 1|2:18 2|0:35 2|1:59 2|2:25 3|0:41 3|1:66 3|2:26 4|0:38 4|1:65 4|2:27 5|0:27 5|1:50 5|2:22 6|0:16 6|1:29 6|2:13
+  degree 5   FPdim 54272.791   0|4:25 0|5:82 0|6:96 1|4:77 1|5:248 1|6:271 2|4:117 2|5:368 2|6:396 3|4:137 3|5:424 3|6:444 4|4:124 4|5:406 4|6:433 5|4:99 5|5:305 5|6:339 6|4:52 6|5:170 6|6:181
+(16 s)

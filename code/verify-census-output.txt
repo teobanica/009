@@ -1,0 +1,17 @@
+rank  rings  raw<=4  raw<=5  laws  laws+cubic
+   1      1      1      1      1      1
+   2      2      2      2      2      2
+   3      4      4      4      4      4
+   4     10     10     10     10     10
+   5     16     16     16     16     16
+   6     39     39     39     39     39
+   7     43     43     43     43     43
+   8     96     96     96     96     96
+   9    142    137    142    139    142
+      Marked through degree 4: 135, with cubic: 138
+      Marked through degree 5: 139, with cubic: 142
+Rank-9 basic-law collisions (source line, cubic): [[(1923, 100), (2051, 116), (2075, 164)], [(1936, 163), (2080, 227)]]
+Rank-9 raw degree-4 collisions: [[30, 114], [31, 33], [236, 280], [1019, 1021], [1301, 1465]]
+L30 (cubic 132), degree-2..5 tuples with multiplicities: [((1, 0, 1, 0), 3), ((1, 0, 4, 0), 2), ((1, 0, 4, 1), 1), ((1, 1, 1, 1), 1), ((1, 1, 4, 7), 1), ((1, 1, 4, 8), 1)]
+L114 (cubic 132), degree-2..5 tuples with multiplicities: [((1, 0, 1, 0), 3), ((1, 0, 4, 0), 3), ((1, 1, 1, 1), 1), ((1, 1, 4, 8), 2)]
+PASS: all 353 records separated by the multiset of raw degree-2..5 tuples.

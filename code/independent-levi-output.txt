@@ -1,0 +1,3 @@
+PASS SL_4 exterior square, c_0..c_12: [1, 0, 1, 1, 3, 10, 21, 105, 252, 1302, 3816, 19008, 65043]
+PASS SL_3 stabilizer M tensor M* tensor V, c_0..c_4: [1, 1, 4, 46, 356]
+ALL 2 INDEPENDENT CHARACTER CHECKS PASSED

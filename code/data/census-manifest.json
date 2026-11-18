@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/sebastienpalcoux/fusion-ring-census",
+  "commit": "1b8494093de41c3ca23bb8e4b836fe5be649944e",
+  "selection": "All tables whose entries are only 0 and 1, with one-based source line numbers. Rank 1 and rank 2 are explicit tables.",
+  "sources": [
+    {
+      "rank": 3,
+      "repository_path": "results/rank3/tables.txt.gz",
+      "git_blob_sha1": "e22ef42c6b06cbdbd59e1676f8ca8cd699706f15",
+      "sha256": "6e1c5b9349870ca5d3745ed629051b90726ddaa1890f30782b8f2cd465d716eb",
+      "selected_count": 4
+    },
+    {
+      "rank": 4,
+      "repository_path": "results/rank4/tables.txt.gz",
+      "git_blob_sha1": "6e97d5101d1c666e8aef2253260b47a47684f0db",
+      "sha256": "9b91cebd5b1cb570c12793dee289783815a51212d6511c8f2d6d1e650a78b2d8",
+      "selected_count": 10
+    },
+    {
+      "rank": 5,
+      "repository_path": "results/rank5/tables.txt.gz",
+      "git_blob_sha1": "fd53d7bfeefdd5d436ad61e8f9eb55f289af9388",
+      "sha256": "4542c0871498337ef38ce3903407933289699a5ff06c85ad0f6c2bd57da823fb",
+      "selected_count": 16
+    },
+    {
+      "rank": 6,
+      "repository_path": "results/rank6/tables.txt.gz",
+      "git_blob_sha1": "f37d963471b55e12636217fa1985dbe7ab535a59",
+      "sha256": "0e7552e17620452f237e94751c40cd93b0757a466168629db8cc1bf0b9451d00",
+      "selected_count": 39
+    },
+    {
+      "rank": 7,
+      "repository_path": "results/rank7/tables.txt.gz",
+      "git_blob_sha1": "2195e60702632d6fbf0fdede54e04d8341cc7b66",
+      "sha256": "9018f6f195339fb153ea326ec308c955bb1adf9afe1ffc9423be1bef6818e073",
+      "selected_count": 43
+    },
+    {
+      "rank": 8,
+      "repository_path": "results/rank8/tables.txt.gz",
+      "git_blob_sha1": "703d23c66a87ebf9244988117711b18034b8fd2e",
+      "sha256": "1003a7684ec62797e63885eeb5af42fd094adc9ff3fec6caf049620b3afd0952",
+      "selected_count": 96
+    },
+    {
+      "rank": 9,
+      "repository_path": "results/rank9/tables.txt.gz",
+      "git_blob_sha1": "79cec7f03d39195b879938a493c2cd6a3c2bdcaf",
+      "sha256": "ff12e5f4c26fe9344b02dadd542bd12375d62cbde8b2023c7342fc43c0584532",
+      "selected_count": 142
+    }
+  ],
+  "bundle_sha256": "70a7f06c64200d06a29dd972fee7f0f38a5504ef84123b2a2927c0280e4a7ecb",
+  "bundle_size_bytes": 21337,
+  "table_count": 353,
+  "git_tree_sha1": "7a874970a56ae87bc138d52b92506a3713c6fd69"
+}

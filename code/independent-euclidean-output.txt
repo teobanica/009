@@ -1,0 +1,27 @@
+Lie algebra kernels for the Euclidean group C^3 x| SO_3 (exact, modulo 2^31 - 1)
+  E + W, which has a law by the theorem on the Euclidean group of 3-space:
+    degree 1: c = 1   ok   (0.0 s)
+    degree 2: c = 3   ok   (0.0 s)
+    degree 3: c = 11   ok   (0.0 s)
+    degree 4: c = 48   ok   (0.0 s)
+    degree 5: c = 232   ok   (0.0 s)
+    degree 6: c = 1207   ok   (0.1 s)
+    degree 7: c = 6631   ok   (1.4 s)
+  A + A*, the restriction of M + M* from SL_4:
+    degree 1: c = 1   ok   (0.0 s)
+    degree 2: c = 4   ok   (0.0 s)
+    degree 3: c = 11   ok   (0.0 s)
+    degree 4: c = 64   ok   (0.0 s)
+    degree 5: c = 246   ok   (0.0 s)
+    degree 6: c = 1600   ok   (0.1 s)
+    degree 7: c = 7309   ok   (0.4 s)
+  A + A* + Lambda^2(A), the restriction of M + M* + Lambda^2(M) (no law):
+    degree 1: c = 1   ok   (0.0 s)
+    degree 2: c = 8   ok   (0.0 s)
+    degree 3: c = 49   ok   (0.0 s)
+    degree 4: c = 380   ok   (0.0 s)
+    degree 5: c = 3233   ok   (0.1 s)
+    degree 6: c = 29520   ok   (1.2 s)
+    degree 7: c = 284623   ok   (34.4 s)
+    degree 8: c = 2859780   ok   (2052.6 s)
+all values agree with euclidean_groups.py and contraction.py

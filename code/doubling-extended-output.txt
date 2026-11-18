@@ -1,0 +1,61 @@
+modules without a law
+----------------------------------------------------------------------
+Taft T_3, M(2,2)
+   c = [1, 0, 1, 1, 2, 4, 7, 15, 28, 58, 113]
+   H: size 7: NOT PSD, inertia (3, 1, 3)
+   E: size 4: NOT PSD, inertia (2, 1, 1)
+   O: size 3: NOT PSD, inertia (2, 1, 0)
+affine group, V_3 (x) (D^5 + D^-5)
+   c = [1, 0, 2, 9, 36, 365, 1640, 16086, 84728, 779472, 4527603]
+   H: size 13: NOT PSD, inertia (9, 4, 0)
+   E: size 7: NOT PSD, inertia (6, 1, 0)
+   O: size 6: NOT PSD, inertia (5, 1, 0)
+C^2 x| SL_2, M (x) M^* (x) V
+   c = [1, 1, 4, 46, 356, 4774, 51047, 705919, 8905990, 126339604, 1748390852]
+   H: size 6: NOT PSD, inertia (4, 2, 0)
+   E: size 3: PD, inertia (3, 0, 0)
+   O: size 3: PD, inertia (3, 0, 0)
+C^2 x| SL_2, V + M + M^*
+   c = [1, 1, 7, 24, 140, 712, 4191, 24698, 152258, 959735, 6172438]
+   H: size 11: NOT PSD, inertia (10, 1, 0)
+   E: size 6: PD, inertia (6, 0, 0)
+   O: size 5: PD, inertia (5, 0, 0)
+C^2 x| SL_2, (M + M^*) (x) V_2
+   c = [1, 0, 5, 30, 336, 3792, 46361, 599678, 8034332, 111280184, 1578771640]
+   H: size 8: NOT PSD, inertia (7, 1, 0)
+   E: size 4: PD, inertia (4, 0, 0)
+   O: size 4: PD, inertia (4, 0, 0)
+C^3 x| SL_3, Lambda^2(C^4)
+   c = [1, 0, 1, 1, 3, 10, 21, 105, 252, 1302, 3816]
+   H: size 15: NOT PSD, inertia (10, 5, 0)
+   E: size 8: PD, inertia (8, 0, 0)
+   O: size 7: PD, inertia (7, 0, 0)
+
+modules with a law
+----------------------------------------------------------------------
+G_a, J_2
+   c = [1, 1, 2, 3, 6, 10, 20, 35, 70, 126, 252]
+   H: size 11: PD, inertia (11, 0, 0)
+   E: size 6: PD, inertia (6, 0, 0)
+   O: size 5: PD, inertia (5, 0, 0)
+G_a, J_2 (x) J_2 = J_1 + J_3
+   c = [1, 2, 6, 20, 70, 252, 924, 3432, 12870, 48620, 184756]
+   H: size 11: PD, inertia (11, 0, 0)
+   E: size 6: PD, inertia (6, 0, 0)
+   O: size 5: PD, inertia (5, 0, 0)
+G_a, J_4
+   c = [1, 1, 4, 12, 44, 155, 580, 2128, 8092, 30276, 116304]
+   H: size 11: PD, inertia (11, 0, 0)
+   E: size 6: PD, inertia (6, 0, 0)
+   O: size 5: PD, inertia (5, 0, 0)
+C^2 x| SL_2, M + M^*
+   c = [1, 1, 4, 12, 48, 192, 832, 3712, 17152, 81152, 392192]
+   H: size 11: PD, inertia (11, 0, 0)
+   E: size 6: PD, inertia (6, 0, 0)
+   O: size 5: PD, inertia (5, 0, 0)
+
+Optional exact degree-80 Levi audit
+PASS all 81 exact moments agree with data/lambda2-80.json
+E: size 21: PD, inertia (21, 0, 0)
+O: size 20: PD, inertia (20, 0, 0)
+The degree-80 prefix passes these tests. verify_exterior.py finds the first impossible doubled moment at degree 84.

@@ -1,0 +1,22 @@
+Lambda^2(C^4) on C^3 x| SL_3: walks in the Weyl chamber of SO_6
+  counted modulo 576460752303423433   (319 s)
+  counted modulo 576460752303423389   (345 s)
+  counted modulo 576460752303423263   (372 s)
+  counted modulo 576460752303423061   (398 s)
+  counted modulo 576460752303422971   (425 s)
+  counted modulo 576460752303422881   (452 s)
+  counted modulo 576460752303422839   (479 s)
+  counted modulo 576460752303422801   (506 s)
+  counted modulo 576460752303422627   (532 s)
+  c_0, ..., c_12 = [1, 0, 1, 1, 3, 10, 21, 105, 252, 1302, 3816, 19008, 65043]
+  agrees with the 81 values of data/lambda2-80.json
+  the recurrence of order 6 holds for all n <= 166
+  values written to data/lambda2-172.json
+  doubled sequence d_k = c_2k: signs of the Hankel determinants of sizes 1..43
+      ++++++++++++++++++++++++++++++++++++++++++-
+      the determinant of size 43 is negative, with 1603 digits
+  shifted sequence d_(k+1): signs of the Hankel determinants of sizes 1..43
+      ++++++++++++++++++++++++++++++++++++++++++-
+      the determinant of size 43 is negative, with 1641 digits
+so X (x) X has neither a Hamburger law nor a Stieltjes law   (533 s)
+all assertions passed

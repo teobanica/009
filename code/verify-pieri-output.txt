@@ -1,0 +1,1 @@
+PASS GL(4) vertical Pieri counts match the archive in every degree 0 through 172.

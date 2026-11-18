@@ -1,0 +1,20 @@
+Fusion Ring Census commit 1b8494093de41c3ca23bb8e4b836fe5be649944e
+Structural exclusions concern braided finite complex categorifications of fusion type.
+{"rank": 1, "rings": 1, "commutative": 1, "all_normal_positive": 1, "self_dual_nonunit_basis": 0, "nonnormal_basis": 0, "distinct_basic_signatures": 1, "distinct_cubic_refinements": 1, "commutative_fusion_simple": 1, "parity_filter_exclusions": 1, "graph_filter_exclusions": 1}
+{"rank": 2, "rings": 2, "commutative": 2, "all_normal_positive": 2, "self_dual_nonunit_basis": 2, "nonnormal_basis": 0, "distinct_basic_signatures": 2, "distinct_cubic_refinements": 2, "commutative_fusion_simple": 2, "parity_filter_exclusions": 1, "graph_filter_exclusions": 1}
+{"rank": 3, "rings": 4, "commutative": 4, "all_normal_positive": 4, "self_dual_nonunit_basis": 6, "nonnormal_basis": 0, "distinct_basic_signatures": 4, "distinct_cubic_refinements": 4, "commutative_fusion_simple": 2, "parity_filter_exclusions": 2, "graph_filter_exclusions": 4}
+{"rank": 4, "rings": 10, "commutative": 10, "all_normal_positive": 10, "self_dual_nonunit_basis": 22, "nonnormal_basis": 0, "distinct_basic_signatures": 10, "distinct_cubic_refinements": 10, "commutative_fusion_simple": 1, "parity_filter_exclusions": 3, "graph_filter_exclusions": 5}
+{"rank": 5, "rings": 16, "commutative": 16, "all_normal_positive": 16, "self_dual_nonunit_basis": 50, "nonnormal_basis": 0, "distinct_basic_signatures": 16, "distinct_cubic_refinements": 16, "commutative_fusion_simple": 3, "parity_filter_exclusions": 3, "graph_filter_exclusions": 14}
+{"rank": 6, "rings": 39, "commutative": 37, "all_normal_positive": 37, "self_dual_nonunit_basis": 141, "nonnormal_basis": 0, "distinct_basic_signatures": 39, "distinct_cubic_refinements": 39, "commutative_fusion_simple": 3, "parity_filter_exclusions": 8, "graph_filter_exclusions": 22}
+{"rank": 7, "rings": 43, "commutative": 40, "all_normal_positive": 40, "self_dual_nonunit_basis": 190, "nonnormal_basis": 0, "distinct_basic_signatures": 43, "distinct_cubic_refinements": 43, "commutative_fusion_simple": 3, "parity_filter_exclusions": 5, "graph_filter_exclusions": 36}
+{"rank": 8, "rings": 96, "commutative": 77, "all_normal_positive": 80, "self_dual_nonunit_basis": 480, "nonnormal_basis": 10, "distinct_basic_signatures": 96, "distinct_cubic_refinements": 96, "commutative_fusion_simple": 2, "parity_filter_exclusions": 6, "graph_filter_exclusions": 32}
+{"rank": 9, "rings": 142, "commutative": 116, "all_normal_positive": 119, "self_dual_nonunit_basis": 802, "nonnormal_basis": 40, "distinct_basic_signatures": 139, "distinct_cubic_refinements": 142, "commutative_fusion_simple": 2, "parity_filter_exclusions": 10, "graph_filter_exclusions": 96}
+PASS all 353 tables satisfy the checked fusion-ring axioms
+PASS all spectral counts agree with the stated census
+PASS the total-basic-sum cubic separates every colliding signature
+PASS independent exhaustive parity checks for all 1850 based subrings
+Collision resolved by cubic: [{"id": "r9:L1923", "cubic": 100}, {"id": "r9:L2051", "cubic": 116}, {"id": "r9:L2075", "cubic": 164}]
+Collision resolved by cubic: [{"id": "r9:L1936", "cubic": 163}, {"id": "r9:L2080", "cubic": 227}]
+PASS 41 commutative rings satisfy the parity or rank-three exclusion
+PASS 211 of 303 commutative rings satisfy the integral bipartite graph exclusion
+Ring IDs, grading witnesses, graph witnesses and exclusions are in census-results.json

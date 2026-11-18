@@ -1,0 +1,6 @@
+degree  unit-channel dimension  symmetrizer diagonal mod 31
+     2                       1                            2
+     4                       4                           30
+     6                      34                           23
+     8                     364                           26
+All four diagonal entries are nonzero.
